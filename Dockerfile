@@ -1,4 +1,4 @@
-FROM rucio/rucio-clients:release-1.22.6.post1
+FROM rucio/rucio-clients:release-1.23.8_py3
 
 # Copy in files to identify and trust host certs/CAs
 COPY EGI-trustanchors.repo /etc/yum.repos.d/
